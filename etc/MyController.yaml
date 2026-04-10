@@ -1,0 +1,30 @@
+# MyController configuration
+
+# Robot to control
+MainRobot: JVRC1
+
+# Timestep in seconds
+Timestep: 0.005
+
+# Contacts with the environment
+contacts:
+  - r1Surface: LeftFoot
+    r2Surface: AllGround
+    r2: ground
+  - r1Surface: RightFoot
+    r2Surface: AllGround
+    r2: ground
+
+# Task gains
+PostureTask:
+  stiffness: 1.0
+  weight: 10.0
+
+CoMTask:
+  stiffness: 1000.0
+  weight: 10.0
+
+EndEffectorTask:
+  body: R_WRIST_Y_S
+  stiffness: 1000.0
+  weight: 5.0
