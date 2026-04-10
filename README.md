@@ -1,5 +1,7 @@
 # MyController — mc_rtc Humanoid Robot Controller
 
+---
+
 ## Overview
 
 This controller demonstrates the core building blocks of whole-body humanoid control using mc_rtc:
